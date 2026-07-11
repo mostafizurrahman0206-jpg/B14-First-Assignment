@@ -1,0 +1,38 @@
+-------------------------------------------------------------------------THE PROMPT:--------------------------------------------------------------------------------------
+ 
+suppose you are a professional 7yrs experienced web developer and you are helping me out with this problem. you know what am i building . so, it  is Developers Conference and also course selling website, i am  create a website for registration and  some information and i add a course  for variable person (3 options) anybody can buy it 
+but at the end (the missing point) section is empty , so you have to complete this section with relevant context  
+so complete the section so that it would look perfect (complete the box section only and provide the only sections HTML and CSS code) 
+i dont wat the dot dot line in the border area, jus make  perfect to match my whole code and pattern
+
+
+
+
+
+
+--------------------------------------------------------------------------EXACT PROMPT for AI:------------------------------------------------------------------------------------------------------
+
+Generate a modern Call-to-Action section for a Developer Conference 2026 website using only HTML and CSS.
+
+The website already contains:
+- Hero section
+- Featured speakers
+- Pricing plans
+- Registration buttons
+
+Create a final section before the footer that encourages visitors to register.
+
+Requirements:
+- Dark blue background (#0b1929)
+- Rounded corners
+- Large heading
+- Short motivational paragraph
+- Two buttons: "Register Now" and "View Schedule"
+- Four conference statistics:
+  • 4000+ Attendees
+  • 50+ Expert Speakers
+  • 30+ Workshops
+  • 3 Days Learning Experience
+- Professional, modern developer conference style
+- Use beginner-friendly HTML and CSS only.
+- Do not use Bootstrap, Tailwind, or JavaScript.

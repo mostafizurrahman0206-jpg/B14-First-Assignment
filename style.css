@@ -1,4 +1,430 @@
-body{
-
-    background-color: rgb(118, 118, 170);
+body {
+    font-family: Arial, sans-serif;
 }
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+img{
+    max-width: 100%;
+}
+
+/* Nav section */
+header{
+    background-color: rgb(255, 255, 255);
+}
+
+nav{
+padding: 20px 0;
+display: flex;    
+justify-content: space-evenly;
+max-width: 100%;
+margin: 0 auto;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    
+    gap: 24.5px;
+    align-items: center;
+}
+
+ul li a{
+    font-size: 16px;
+font-weight: 100;
+color: #575757FF;
+    text-decoration: none;
+    
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.commonButton{
+    background-color: #1d4ed8;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+cursor: pointer;
+}
+
+.commonButtonV2{
+    background-color: #1d4ed8;
+    color: white;
+ width: 282px;
+ height: 74px;
+    padding: 16px 34px;
+    border-radius: 12px;
+    font-size: 24px;
+    font-weight: 700;
+    border: none;
+cursor: pointer;
+}
+
+
+
+/* nav ebd */
+
+/* hero start */
+.hero {
+    height: 786px;
+ 
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+        
+            url("./banner.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+    text-align: center;
+
+    padding-top: 110px;
+}
+
+.hero h1{
+    font-size: 90px;
+    font-weight: 700; 
+    text-align: center;  
+    margin-bottom: 26px;
+}
+
+.hero p{
+    font-size: 25px;
+    
+}   
+/* hero end */
+
+/* speakers section start  */
+h1 {
+    
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.allSpeakers{
+    padding: 0 100px;
+    
+}
+
+.allSpeakers h1{
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 50px;
+}
+
+.speaker-Container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+
+}
+
+.speaker-card {
+    width: 35%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;}
+
+.speaker-card img {
+   width: 642px;
+   height: 324px;
+
+}
+
+.info {
+    padding: 20px;
+}
+
+ 
+.info small {
+    color: #2563ebFF;
+    font-weight: bold;
+}
+.info h3 {
+    color: #0d1b2aFF;
+    font-size: 20px;
+    margin: 10px 0;
+    font-style: normal;
+}
+
+.info p {
+    color:  #575757FF;
+    font-size: 14px;
+}
+
+/* speakers section end */
+
+
+
+/*  price section start  */
+
+.secondbutton{
+     color: #2563ebFF;
+    background-color: white;
+ 
+    padding: 16px 60px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid #2563ebFF;
+cursor: pointer;
+
+}
+
+.thirdbutton{
+     color: white;
+    background: #2563ebFF;
+ 
+    padding: 16px 75px;
+    border-radius: 12px;
+    font-size: 25px;
+    font-weight: 500;
+    border: 2px solid #2563ebFF;
+cursor: pointer;
+
+}
+
+.forthbutton{
+      color: #2563ebFF;
+    background-color: white;
+ 
+    padding: 16px 60px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid rgb(0, 0, 0);
+cursor: pointer;
+
+}
+
+.allprice {
+    padding: 70px 100px;
+}
+
+.allprice > h1 {
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.first-text {
+    text-align: center;
+    color: #575757;
+    margin-bottom: 50px;
+}
+
+.price-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.price-card {
+    width: 300px;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.price-card h2 {
+    font-size: 38px;
+    margin-top: 10px;
+}
+
+.price-card p {
+    color: gray;
+    font-size: 12px;
+}
+
+.price-card hr {
+    margin: 20px 0;
+    border: 1px solid #eee;
+}
+
+
+.price-card ul {
+    display: block;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+.price-card li {
+    display: list-item;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+.price-card button {
+    width: 100%;
+    padding: 12px;
+    color: #2563eb;
+    background-color: white;
+    border: 1px solid #2563eb;
+    border-radius: 6px;
+}
+
+.pro {
+    background-color: #0b1929;
+    color: white;
+}
+
+.pro p {
+    color: #aaa;
+}
+
+.pro button {
+    background-color: #2563eb;
+    color: white;
+}
+
+.price-card ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.price-card li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 12px;
+}
+
+.price-card li::before {
+    content: "•";
+    color: #60a5faFF;
+    position: absolute;
+    left: 0;
+    font-size: 18px;
+}
+
+/*  price section end  */
+
+
+/* ===========================
+   AI Section(Final CTA Section)
+=========================== */
+
+.cta{
+    width: 90%;
+    margin: 80px auto;
+    padding: 70px 60px;
+
+    background: #0b1929;
+    border-radius: 15px;
+
+    text-align: center;
+    color: white;
+}
+
+.cta h2{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.cta p{
+    width: 70%;
+    margin: auto;
+    font-size: 17px;
+    line-height: 30px;
+    color: #c9d1d9;
+}
+
+.cta-buttons{
+    margin-top: 40px;
+}
+
+.register-btn{
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.schedule-btn{
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 15px 35px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cta-info{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.info-box h3{
+    font-size: 34px;
+    color: #3b82f6;
+    margin-bottom: 8px;
+}
+
+.info-box p{
+    width: auto;
+    color: #b8c1cc;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+/* Footer */
+
+footer {
+    /* height: 100px; */
+background: #0d1b2aFF;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 60px;
+
+  color: #ffffff66;
+
+padding-inline-start: 60px;
+padding-inline-end: 60px;
+padding-block-start: 56px;
+padding-block-end: 32px;
+
+}
+
+footer p {
+    font-size: 13px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 25px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #ffffff66;
+    font-size: 13px;
+}
+ 
