@@ -394,8 +394,9 @@ cursor: pointer;
 
 /* Footer */
 
+
 footer {
-    /* height: 100px; */
+    
 background: #0d1b2aFF;
 
     display: flex;
@@ -408,23 +409,34 @@ background: #0d1b2aFF;
 
 padding-inline-start: 60px;
 padding-inline-end: 60px;
-padding-block-start: 56px;
-padding-block-end: 32px;
-
+padding: 32px 60px;
 }
 
 footer p {
     font-size: 13px;
+ margin: 0;
 }
 
 .footer-links {
     display: flex;
     gap: 25px;
 }
-
+ 
+ 
 .footer-links a {
     text-decoration: none;
     color: #ffffff66;
     font-size: 13px;
 }
+
+ 
+
+
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+ 
+
  
